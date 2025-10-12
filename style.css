@@ -1,0 +1,39 @@
+/* --- Grundstil der Seite --- */
+body {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin-top: 100px;
+}
+
+/* --- Box-Stil für den Umrechner --- */
+.box {
+  background-color: white;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* --- Stil für Eingabefelder und Schaltflächen --- */
+select, input, button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+/* --- Schaltfläche (Button) --- */
+button {
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+/* --- Effekt beim Überfahren --- */
+button:hover {
+  background-color: #0056b3;
+}

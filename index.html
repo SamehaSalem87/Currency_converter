@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Währungsrechner</title>
+  <!-- Verknüpfung mit CSS-Datei -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>💱 Währungsrechner</h2>
+
+    <!-- Eingabefeld für den Betrag -->
+    <input type="number" id="amount" placeholder="Betrag eingeben" />
+
+    <br>
+
+    <!-- Auswahl der Ausgangswährung -->
+    <select id="from">
+      <option value="USD">US-Dollar</option>
+      <option value="EUR">Euro</option>
+      <option value="SAR">Saudi-Riyal</option>
+    </select>
+
+    →
+    <!-- Auswahl der Zielwährung -->
+    <select id="to">
+      <option value="EUR">Euro</option>
+      <option value="USD">US-Dollar</option>
+      <option value="SAR">Saudi-Riyal</option>
+    </select>
+
+    <br>
+
+    <!-- Schaltfläche zum Umrechnen -->
+    <button onclick="convert()">Umrechnen</button>
+
+    <!-- Ergebnis -->
+    <h3 id="result"></h3>
+  </div>
+
+  <!-- Verknüpfung mit JavaScript-Datei -->
+  <script src="script.js"></script>
+</body>
+</html>
